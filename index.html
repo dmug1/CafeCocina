@@ -10,11 +10,16 @@
         <title>Urban Cocina</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/vue@next" defer></script>
+        <script src="app.js" defer></script>
     </head>
     <body>
-
-        
-        <script src="" async defer></script>
+        <section id="app">
+            <h2>placeholder</h2>
+            <input type="text" @input="saveInput">
+            <button @click="setText">Set Text</button>
+            <p>{{ message }}</p>
+          </section>
     </body>
 </html>
